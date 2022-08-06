@@ -1,0 +1,90 @@
+CRITICAL - 2022-07-29 11:24:49 --> Argument 1 passed to App\Entities\User::setRole() must be an instance of Role, string given, called in C:\wamp64\www\seguridad\system\Entity\Entity.php on line 448
+in APPPATH\Entities\User.php on line 18.
+ 1 SYSTEMPATH\Entity\Entity.php(448): App\Entities\User->setRole('ROOTPATH\\public')
+ 2 SYSTEMPATH\Entity\Entity.php(137): CodeIgniter\Entity\Entity->__set('role', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\Entity\Entity.php(118): CodeIgniter\Entity\Entity->fill([...])
+ 4 APPPATH\Controllers\Auth\Register.php(20): CodeIgniter\Entity\Entity->__construct([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 15:50:47 --> Use of undefined constant Role - assumed 'Role' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Auth\Register.php on line 14.
+ 1 APPPATH\Controllers\Auth\Register.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant Role - assumed \'Role\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Auth\\Register.php', 14, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 16:05:19 --> Class 'Role' not found
+in APPPATH\Controllers\Auth\Register.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 16:06:01 --> Class 'Role' not found
+in APPPATH\Controllers\Auth\Register.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 16:06:35 --> Class 'Role' not found
+in APPPATH\Controllers\Auth\Register.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 16:06:50 --> Class 'Role' not found
+in APPPATH\Controllers\Auth\Register.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 16:11:19 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Controllers\Auth\Register.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Auth\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth\\Register')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Auth\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Auth\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 16:12:52 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Controllers\Auth\Register.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Auth\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth\\Register')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Auth\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Auth\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 16:32:14 --> Class 'Role' not found
+in APPPATH\Controllers\Auth\Register.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 16:35:40 --> Class 'Role' not found
+in APPPATH\Controllers\Auth\Register.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 17:05:53 --> Call to a member function humanize() on string
+in APPPATH\Controllers\Auth\Register.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 17:29:46 --> A non-numeric value encountered
+in APPPATH\Entities\User.php on line 18.
+ 1 APPPATH\Entities\User.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Entities\\User.php', 18, [...])
+ 2 SYSTEMPATH\Entity\Entity.php(448): App\Entities\User->setName('usuario')
+ 3 SYSTEMPATH\Entity\Entity.php(137): CodeIgniter\Entity\Entity->__set('name', 'usuario')
+ 4 SYSTEMPATH\Entity\Entity.php(118): CodeIgniter\Entity\Entity->fill([...])
+ 5 APPPATH\Controllers\Auth\Register.php(24): CodeIgniter\Entity\Entity->__construct([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

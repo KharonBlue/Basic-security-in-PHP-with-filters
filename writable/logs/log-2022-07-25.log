@@ -1,0 +1,171 @@
+ERROR - 2022-07-25 22:01:31 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-07-25 22:01:31 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\UserModel.php on line 23.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UserModel->getUser([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 22:02:00 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-07-25 22:02:00 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\UserModel.php on line 23.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UserModel->getUser([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 22:02:53 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-07-25 22:02:53 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\UserModel.php on line 23.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\UserModel->getUser([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 22:03:07 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-07-25 22:03:07 --> Unknown column 'user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\UserModel->getUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 22:05:43 --> Table 'login.name' doesn't exist
+CRITICAL - 2022-07-25 22:05:43 --> Table 'login.name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `name`
+WHERE `user` = \'kharon\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `name`
+WHERE `user` = \'kharon\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `name`
+WHERE `user` = \'kharon\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `name`
+WHERE `user` = :user:', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\UserModel->getUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 22:06:44 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-07-25 22:06:44 --> Unknown column 'user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\UserModel->getUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 22:07:05 --> Table 'login.name' doesn't exist
+CRITICAL - 2022-07-25 22:07:05 --> Table 'login.name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `name`
+WHERE `user` = \'kharon\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `name`
+WHERE `user` = \'kharon\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `name`
+WHERE `user` = \'kharon\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `name`
+WHERE `user` = :user:', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\UserModel->getUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 22:09:16 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-07-25 22:09:16 --> Unknown column 'user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 5 APPPATH\Models\UserModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\UserModel->getUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 22:11:20 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-07-25 22:11:20 --> Unknown column 'user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user` = \'kharon\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 5 APPPATH\Models\UserModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(28): App\Models\UserModel->getUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 23:48:02 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-07-25 23:48:02 --> Unknown column 'user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `user` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` IS NULL', [], false)
+ 5 APPPATH\Models\UserModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(28): App\Models\UserModel->getUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
